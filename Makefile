@@ -1,4 +1,3 @@
-
 all: libcalc test client server serverD
 
 
@@ -24,7 +23,7 @@ client: clientmain.o calcLib.o
 	$(CXX) -L./ -Wall -o client clientmain.o -lcalc
 
 server: servermain.o calcLib.o
-	$(CXX) -L./ -Wall -o server servermain.o -lcalc
+	$(CXX) -L./ -Wall -o server servermain.o -lcalc -lrt
 
 serverD: servermainD.o calcLib.o
 	$(CXX) -L./ -Wall -o serverD servermainD.o -lcalc 

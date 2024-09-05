@@ -13,11 +13,8 @@
    The aim with this code, is to give you examples HOW to grab a random arithmetic operator, matching values and perform a 
    reference calculation, so that you can eventually compare what came from the other side. 
    It also shows how to decode a string into different variables. 
-
    You are free to reuse relevant parts, as the assignment is ABOUT the communication, which is omitted from the example. 
-
 */
-
 
 
 /* Std start to main, argc holds the number of arguments provided to the executable, and *argv[] an 
@@ -142,3 +139,4 @@ int main(int argc, char *argv[]){
   
 
 }
+
