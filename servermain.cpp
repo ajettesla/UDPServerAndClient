@@ -619,23 +619,3 @@ float2 = randomFloat();
 
 return calstru;
 }
-
-
-POORNA TEJA BOJJA
-.git
-calcLib.c
-calcLib.h
-clientmain.cpp
-main.cpp
-Makefile
-protocol.h
-serverD
-servermain.cpp
-
-
-
-Correct filenames in archive
-1⁄1
-AT
-
-
